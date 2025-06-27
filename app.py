@@ -19,7 +19,7 @@ if os.path.exists("metrics.json"):
         metrics = json.load(f)
 # Streamlit UI 
 st.set_page_config(page_title="AI Essay Grader", layout="centered")
-st.title("C Essay Grader")
+st.title(" Essay Grader")
 st.write("Paste an essay or upload a `.txt` to get a predicted grade.")
 
 
